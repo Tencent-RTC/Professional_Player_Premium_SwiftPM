@@ -84,6 +84,7 @@ let package = Package(
                 "TXLiteAVSDK_ReplayKitExt"
             ],
             path: "Sources/ReplayKitWrapper",
+            publicHeadersPath: "",
             sources: ["ReplayKitWrapper.m"]
         ),
     ]
