@@ -1,7 +1,7 @@
 // swift-tools-version:5.7
 // The swift-tools-version declares the minimum version of Swift required to build this package.
 //
-// Version: 13.2.20652
+// Version: 13.3.20845
 // Summary: TXLiteAVSDK_Professional_Player_Premium
 // Description: TXLiteAVSDK Professional Player Premium Edition provides powerful audio/video capabilities
 // including video playback, real-time communication, and more.
@@ -28,23 +28,23 @@ let package = Package(
 
         .binaryTarget(
             name: "TXLiteAVSDK_Professional",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.2/professional_player_premium/13.2.0.20652/TXLiteAVSDK_Professional.xcframework.zip",
-            checksum: "5e2111f3bee974afa0a2dedbbfc1e0d864e44d8cee1d3adac50b579d8dbdfe2d"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.3/professional_player_premium/13.3.0.20845/TXLiteAVSDK_Professional.xcframework.zip",
+            checksum: "5d3b36cf9fa190bfadc9b7cc14783eba73ad5a0323ccee16f3219798116034cb"
         ),
         .binaryTarget(
             name: "TXFFmpeg",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.2/professional_player_premium/13.2.0.20652/TXFFmpeg.xcframework.zip",
-            checksum: "e672b96a2de864592f5f9173450cbbfbbb217fae28736a12bee5239a3bf7732f"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.3/professional_player_premium/13.3.0.20845/TXFFmpeg.xcframework.zip",
+            checksum: "3297dcb3e9cc471c7a2fdfcab1b53b8c15530d64a8c9a3a2469648cde8538ff5"
         ),
         .binaryTarget(
             name: "TXSoundTouch",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.2/professional_player_premium/13.2.0.20652/TXSoundTouch.xcframework.zip",
-            checksum: "2deaa2d94efd897cc2b58375e854e2f24bf71c317f2d3c6c95fc2da90c93d7e9"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.3/professional_player_premium/13.3.0.20845/TXSoundTouch.xcframework.zip",
+            checksum: "e57672935b385434cad89886574441023ef8ea20e92231f70f6cec3ef865faac"
         ),
         .binaryTarget(
             name: "TXLiteAVSDK_ReplayKitExt",
-            url: "https://liteav.sdk.qcloud.com/download/spm/13.2/professional_player_premium/13.2.0.20652/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
-            checksum: "5b6fa04fe617591a2a2606d35250bb017a62c7b27c682a8dc11894525adfc239"
+            url: "https://liteav.sdk.qcloud.com/download/spm/13.3/professional_player_premium/13.3.0.20845/TXLiteAVSDK_ReplayKitExt.xcframework.zip",
+            checksum: "435dcf63006750bcb229da74181c8e1a6a6e7696cc057a3d9cd85a466eb2d343"
         ),
 
         // ==================== Wrapper Targets ====================
