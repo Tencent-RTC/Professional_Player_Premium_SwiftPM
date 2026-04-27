@@ -57,6 +57,7 @@ let package = Package(
                 "TXSoundTouch"
             ],
             path: "Sources/PlayerWrapper",
+            publicHeadersPath: "",
             linkerSettings: [
                 .linkedFramework("ReplayKit"),
                 .linkedFramework("VideoToolbox"),
@@ -84,6 +85,7 @@ let package = Package(
                 "TXLiteAVSDK_ReplayKitExt"
             ],
             path: "Sources/ReplayKitWrapper",
+            publicHeadersPath: "",
             sources: ["ReplayKitWrapper.m"]
         ),
     ]
